@@ -22,7 +22,7 @@ for($i = 0; $i <= $N_MAX; $i++){
 // Basic display
 for ($i=0; $i < count($A); $i++) {
   for ($i=0; $i < count($B); $i++) {
-    echo "tour n° " . $N . "<br>";
+    echo "Round n° " . $N . "<br>";
     echo $A[$i] . " " . $B[$i] . "<br>";
 
 // test and give the points
@@ -50,6 +50,6 @@ if($point_A < $point_B){
   echo "A" . "<br>";
   echo "<br>";
 }else{
-  echo "égalité";
+  echo "null";
   echo "<br>";
 };
